@@ -1,9 +1,9 @@
 
 
-const Card = () => {
+const Card = ({nombreProp, apellidoProp}) => {
 
 
-    return <div>Hola, soy una tarjeta</div>;
+    return <div>Hola, {nombreProp} {apellidoProp} fuiste ingresado</div>;
 };
 
 
